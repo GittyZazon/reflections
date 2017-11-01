@@ -1,0 +1,8 @@
+1) How did viewing a diff between two versions help you spot the bug?
+
+It helped because instead of tediously searching through over a thousand lines of code, I was able to see just where there were differences. The old version was running well, so now I can find what I changed to make it wrong.
+
+Step one: Download the two files into a "Folder"
+Step two: cd "Folder"
+Step three: FC (file compare) old_version.js new_version.js
+Step four: Find the bug!
