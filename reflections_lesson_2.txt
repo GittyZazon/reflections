@@ -1,0 +1,20 @@
+To create a new repository in Git, use git init.
+
+ls -a - list the files in a directory
+git init - create new repository
+git status - find out which files have changed since last commit
+git add - add a file to the repository
+git commit - creates a commit for the changes
+
+
+1) What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository, Git creates a new empty repository. This is needed to store a new directory of
+files which you can then log commits into.
+
+2) How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is where you can make changes to files before you add them to the repository for a final commit.
+The directory is where the files are stored in a general sense, before being added to the repository on git. The
+value of the staging area is that you don't have to commit every change you've ever made into the repository, just the
+specific ones you make starting from a certain point.
