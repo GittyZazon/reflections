@@ -5,7 +5,7 @@ git init - create new repository
 git status - find out which files have changed since last commit
 git add - add a file to the repository
 git commit - creates a commit for the changes
-
+cd .. - return to parent directory
 
 1) What happens when you initialize a repository? Why do you need to do it?
 
@@ -18,3 +18,8 @@ The staging area is where you can make changes to files before you add them to t
 The directory is where the files are stored in a general sense, before being added to the repository on git. The
 value of the staging area is that you don't have to commit every change you've ever made into the repository, just the
 specific ones you make starting from a certain point.
+
+3) How can you use the staging area to make sure you have one commit per logical change?
+
+When a file is in the staging area you can use git diff to find out which changes have been made. This helps you to
+make sure you don't overwhelm the commit with changes that aren't logically connected. 
