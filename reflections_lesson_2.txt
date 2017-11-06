@@ -8,7 +8,8 @@ git commit - creates a commit for the changes
 cd .. - return to parent directory
 git branch - see branches; star next to name indicates the one in use
 git banch 'name' - creates new branch 'name'; use git checkout name to switch branches
-
+git log --graph --oneline branch1 branch2 - creates a visualization of branch structure 
+git checkout -b new_branch_name - creates and starts working on a new branch 
 
 1) What happens when you initialize a repository? Why do you need to do it?
 
@@ -38,6 +39,12 @@ If you want to test out an update to your program, or make a temporary change, t
 instead of having to hop back and forth between commit ids and trying to remember when you made the change, or if you
 saved multiple experimental changes.
 
+Branches are good for collab, multiple people can work on multiple things ie bug fixes, new features, new language
+and then save to different branches until it can come together in a merged branch.
+
+5) How do diagrams help you visualize the branch structure?
+
+They show exactly where branches were created to know whats in the branch or not and then it will help you to know where you want to create the merge in the future. Diagrams are a visualization of the branches.
 
 
 
