@@ -9,7 +9,9 @@ cd .. - return to parent directory
 git branch - see branches; star next to name indicates the one in use
 git banch 'name' - creates new branch 'name'; use git checkout name to switch branches
 git log --graph --oneline branch1 branch2 - creates a visualization of branch structure 
-git checkout -b new_branch_name - creates and starts working on a new branch 
+git checkout -b new_branch_name - creates and starts working on a new branch
+git show - shows changes between a commit and it's parent commit
+git branch -d branch1 - deletes a branch
 
 1) What happens when you initialize a repository? Why do you need to do it?
 
@@ -46,5 +48,8 @@ and then save to different branches until it can come together in a merged branc
 
 They show exactly where branches were created to know whats in the branch or not and then it will help you to know where you want to create the merge in the future. Diagrams are a visualization of the branches.
 
+6) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+When two files are merged, both of their edits are combined and we can access both branches' history. We combine them on the diagram like that so that we know where the parents for each commit are and so that we know each history is still there and made on what.
 
 
