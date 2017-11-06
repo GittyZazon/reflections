@@ -6,6 +6,9 @@ git status - find out which files have changed since last commit
 git add - add a file to the repository
 git commit - creates a commit for the changes
 cd .. - return to parent directory
+git branch - see branches; star next to name indicates the one in use
+git banch 'name' - creates new branch 'name'; use git checkout name to switch branches
+
 
 1) What happens when you initialize a repository? Why do you need to do it?
 
@@ -23,3 +26,18 @@ specific ones you make starting from a certain point.
 
 When a file is in the staging area you can use git diff to find out which changes have been made. This helps you to
 make sure you don't overwhelm the commit with changes that aren't logically connected. 
+
+branch - label for separate commits
+master - main branch in repository
+detached head - when you're working on a commit without a branch name, meaning that you'll build on the previous commit
+merge - combine two commits (ie your experimental branch is good and you want to add it to the master branch now)
+
+4) What are some situations when branches would be helpful in keeping you history organized? How would branches help?
+
+If you want to test out an update to your program, or make a temporary change, then you can create a branch for it
+instead of having to hop back and forth between commit ids and trying to remember when you made the change, or if you
+saved multiple experimental changes.
+
+
+
+
