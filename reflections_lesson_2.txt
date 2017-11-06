@@ -52,4 +52,19 @@ They show exactly where branches were created to know whats in the branch or not
 
 When two files are merged, both of their edits are combined and we can access both branches' history. We combine them on the diagram like that so that we know where the parents for each commit are and so that we know each history is still there and made on what.
 
+7) What are the pros and cons of Git's automatic merging vs always doing merges manually?
+
+The pros of the auto merge are that you don't have to tediously sift through hundreds of lines of code to every time in order to make sure the changes don't conflict. However, a mistake might have been made and it would automatically be updated into the new version and you won't know why or where just because it didn't conflict with any other fxs. 
+
+
+
+
+
+
+
+
+
+
+
+
 
