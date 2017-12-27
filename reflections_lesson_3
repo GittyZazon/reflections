@@ -1,0 +1,11 @@
+actions:
+git remote - view and create remotes
+git remote add name_of_remote //(only 1, standard name origin) url_of_remote
+git push name_of_remote branch_name (master)
+vocab:
+remote - remote repository, store location of repository you will want to send/receive to/from
+
+When you push a branch, all commits associated with it (except for ones already on github) will be sent.
+
+1. When would you want to use a remote repository rather than keeping all your work local?
+I would want to use a remote repository when working on a collaborative project or when working on a project for someone in order to be able to present my work to more than one person.
