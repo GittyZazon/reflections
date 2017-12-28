@@ -9,3 +9,18 @@ When you push a branch, all commits associated with it (except for ones already 
 
 1. When would you want to use a remote repository rather than keeping all your work local?
 I would want to use a remote repository when working on a collaborative project or when working on a project for someone in order to be able to present my work to more than one person.
+
+2. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote
+repository?
+Sometimes there are changes that you're tweaking and working on that aren't quite ready to commit so it's better to deal
+with when to push or pull changes yourself since Git won't know the difference.
+
+3. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks create a new repository in your own account that contain all previous commits from the person forked from, and includes
+a reference to said person. A clone is when you copy the same repository from GitHub onto your local computer to edit and
+add things. A branch is simply a local made change where you can tweak the original file and not have it disrupt the
+current working files. If you see a great basis for a program or file and would like to simply add a couple of things or
+edit it to make it your own while still keeping credit for the original, then it would be best to fork it. If you would like
+to work on a program or file together with someone, then it would be best to clone it onto your local computer, work on it,
+then commit changes to GitHub once again. If you would simply like to edit your own file/program without messing up the
+current working program/file then it would be best to create a new branch.
